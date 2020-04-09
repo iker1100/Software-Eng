@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>WorkerSuppliers</servlet-name>
+        <servlet-class>WorkerSuppliers</servlet-class>
+    </servlet>
+	
+   
+	
+
+    <servlet-mapping>
+        <servlet-name>WorkerSuppliers</servlet-name>
+        <url-pattern>/WorkerSuppliers</url-pattern>
+    </servlet-mapping>
+
+  
+	
+
+</web-app>
