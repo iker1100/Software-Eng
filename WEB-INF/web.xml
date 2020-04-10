@@ -6,12 +6,22 @@
         <servlet-class>WorkerSuppliers</servlet-class>
     </servlet>
 	
+	<servlet>
+        <servlet-name>WorkerHistorySuppliers</servlet-name>
+        <servlet-class>WorkerHistorySuppliers</servlet-class>
+    </servlet>
+	
    
 	
 
     <servlet-mapping>
         <servlet-name>WorkerSuppliers</servlet-name>
         <url-pattern>/WorkerSuppliers</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>WorkerHistorySuppliers</servlet-name>
+        <url-pattern>/WorkerHistorySuppliers</url-pattern>
     </servlet-mapping>
 
   
